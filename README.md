@@ -4,6 +4,9 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/swift-5.2-orange.svg" />
+    <a href="https://github.com/zntfdr/Life/actions?query=workflow%3A%22Build+and+Test%22">
+        <img src="https://img.shields.io/github/workflow/status/zntfdr/Life/Build and Test?label=CI&logo=GitHub" alt="Build status" />
+    </a>
     <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/swiftpm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
     </a>
@@ -67,7 +70,7 @@ Any cell outside of the world edges is considered dead. | The world left and rig
 
 Life is distributed using the [Swift Package Manager](https://swift.org/package-manager). To install it into a project, follow [this tutorial](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app) and use this repository URL: `https://github.com/zntfdr/Life.git`.
 
-## Command line tool
+## Command Line Tool
 <p align="center">
     <img src=".assets/cli-example.gif" max-width="90%" alt="life in action" />
 
