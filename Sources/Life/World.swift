@@ -24,7 +24,7 @@ public struct World {
   }
 
   /// Creates an empty world of the specified size.
-  public init(rows: Int, columns: Int, mode: Mode) throws {
+  public init(rows: Int, columns: Int, mode: Mode = .simple) throws {
     guard rows > 0 && columns > 0 else {
       throw InitializationError.nonPositiveDimension
     }
