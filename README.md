@@ -72,7 +72,7 @@ Life is distributed using the [Swift Package Manager](https://swift.org/package-
 
 ## Command Line Tool
 <p align="center">
-    <img src=".assets/cli-example.gif" max-width="90%" alt="life in action" />
+    <img src=".assets/cli-example.gif" width="650" max-width="70%" alt="life in action" />
 
 Life also comes with a command line tool that showcases its functionality.
 
