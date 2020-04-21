@@ -55,7 +55,7 @@ Lastly, `World` exposes an `isCellAlive(_:)` instance method to check whether th
 
 Life comes in two modes: Simple and Loop.  
 
-The mode can be specified by passing an optional `mode` parameter when creating a new `World` instance (by default the mode is `.simple`) ]:
+The mode is specified when creating a new `World` instance (the default mode is `.simple`):
 
 ```swift
 var world = try World(rows: rows, columns: columns, mode: .loop)
