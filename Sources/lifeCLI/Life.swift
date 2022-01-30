@@ -1,6 +1,7 @@
 import ArgumentParser
 import Life
 
+@main
 struct Life: ParsableCommand {
   @Option(name: .shortAndLong, help: "The world rows number.")
   var rows: Int = 10
