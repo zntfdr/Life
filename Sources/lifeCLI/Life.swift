@@ -1,15 +1,16 @@
 import ArgumentParser
 import Life
 
+@main
 struct Life: ParsableCommand {
-  @Option(name: .shortAndLong, default: 10, help: "The world rows number.")
-  var rows: Int
+  @Option(name: .shortAndLong, help: "The world rows number.")
+  var rows: Int = 10
 
-  @Option(name: .shortAndLong, default: 80, help: "The world columns number.")
-  var columns: Int
+  @Option(name: .shortAndLong, help: "The world columns number.")
+  var columns: Int = 80
 
-  @Option(name: .shortAndLong, default: .simple, help: "The world mode. (simple|loop)")
-  var mode: Mode
+  @Option(name: .shortAndLong, help: "The world mode. (simple|loop)")
+  var mode: Mode = .simple
 
   func validate() throws {
     guard rows > 0, columns > 0 else {
